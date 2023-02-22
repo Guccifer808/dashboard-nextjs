@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "../components/Header";
+import { Header, TopCards } from "@/components";
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
       </Head>
       <main className="min-h-screen bg-red-200">
         <Header />
+        <TopCards />
       </main>
     </>
   );
