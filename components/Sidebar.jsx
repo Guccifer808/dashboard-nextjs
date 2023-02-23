@@ -1,13 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import {
-  MdSpaceDashboard,
-  MdPerson,
-  MdShoppingCart,
-  MdSettings,
-  MdPoll,
-} from "react-icons/md";
+import { MdPerson, MdShoppingCart, MdSettings, MdPoll } from "react-icons/md";
 import { GiTripleCorn } from "react-icons/gi";
 
 const Sidebar = ({ children }) => {
