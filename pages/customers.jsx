@@ -1,5 +1,6 @@
 import { mockData } from "@/mockData/mockData";
 import { GiCharacter } from "react-icons/gi";
+import { BsThreeDotsVertical } from "react-icons/bs";
 
 const customers = () => {
   return (
@@ -9,20 +10,22 @@ const customers = () => {
         <h2>Welcome back, user</h2>
       </div>
       <div className="p-4">
-        <div className="m-auto w-full overflow-auto rounded-lg border bg-white p-4">
-          <div className="cursor-poiner my-3 grid grid-cols-2 items-center justify-between p-2 sm:grid-cols-3 md:grid-cols-4">
-            <span>Name</span>
-            <span className="text-right sm:text-left">Email</span>
-            <span className="hidden md:grid">Last Order</span>
-            <span className="hidden sm:grid">Method</span>
+        <div className="m-auto w-full overflow-y-auto rounded-lg border bg-white p-1">
+          <div className="my-3 grid cursor-pointer grid-cols-2 items-center justify-center gap-2 p-2 sm:grid-cols-2 md:grid-cols-3 md:justify-between lg:grid-cols-4">
+            <span className="text-left">Name</span>
+            <span className="hidden text-right sm:grid sm:text-left">
+              Email
+            </span>
+            <span className="hidden lg:grid">Last Order</span>
+            <span className="hidden md:flex md:justify-end">Method</span>
           </div>
           <ul>
             {mockData.map((order, id) => (
               <li
                 key={id}
-                className="my-3 grid cursor-pointer grid-cols-2 items-center justify-between rounded-lg bg-slate-50 p-2 hover:bg-slate-100 sm:grid-cols-3 md:grid-cols-4"
+                className="my-3 grid cursor-pointer grid-cols-2 items-center justify-between gap-2 rounded-lg bg-slate-50 p-2 hover:bg-slate-100 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
               >
-                <div className="flex items-center whitespace-nowrap">
+                <div className="flex items-center">
                   <div className="rounded-lg bg-green-100 p-3">
                     <GiCharacter className="text-green-500" />
                   </div>
@@ -30,9 +33,15 @@ const customers = () => {
                     {order.name.first + " " + order.name.last}
                   </p>
                 </div>
-                <p className="text-right text-slate-700 sm:text-left">
+                <p className="hidden truncate text-right text-slate-700 sm:flex sm:text-left">
                   {order.email}
                 </p>
+                <p className="hidden lg:flex">{order.date}</p>
+
+                <div className="hidden items-center justify-between md:flex md:justify-end lg:flex">
+                  <p>{order.method}</p>
+                  <BsThreeDotsVertical />
+                </div>
               </li>
             ))}
           </ul>
