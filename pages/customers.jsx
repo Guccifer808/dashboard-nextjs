@@ -6,7 +6,7 @@ const customers = () => {
   return (
     <div className="min-h-screen bg-slate-100">
       <div className="flex justify-between px-4 pt-4">
-        <h2>Customers</h2>
+        <h2 className="text-2xl font-bold">Customers</h2>
         <h2>Welcome back, user</h2>
       </div>
       <div className="p-4">
