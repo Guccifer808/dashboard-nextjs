@@ -1,4 +1,4 @@
-import { mockData } from "@/mockData/mockData";
+import { mockData } from "@/mockData";
 import { GiCharacter } from "react-icons/gi";
 import { BsThreeDotsVertical } from "react-icons/bs";
 

@@ -1,6 +1,6 @@
 import { GiShoppingBag } from "react-icons/gi";
 import { BsThreeDotsVertical } from "react-icons/bs";
-import { mockData } from "@/mockData/mockData";
+import { mockData } from "@/mockData";
 
 const orders = () => {
   return (

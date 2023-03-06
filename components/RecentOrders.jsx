@@ -1,4 +1,4 @@
-import { mockData } from "@/mockData/mockData";
+import { mockData } from "@/mockData";
 import { GiShoppingBag } from "react-icons/gi";
 
 const RecentOrders = () => {
