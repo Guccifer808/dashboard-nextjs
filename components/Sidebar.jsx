@@ -39,11 +39,7 @@ const Sidebar = ({ children }) => {
               <MdShoppingCart size={22} />
             </div>
           </Link>
-          <Link href="/kanban">
-            <div className="my-4 inline-block cursor-pointer rounded-lg bg-slate-100 p-3 text-slate-600 hover:bg-gray-300">
-              <MdDeveloperBoard size={22} />
-            </div>
-          </Link>
+
           <Link href="/settings">
             <div className="my-4 inline-block cursor-pointer rounded-lg bg-slate-100 p-3 text-slate-600 hover:bg-gray-300">
               <MdSettings size={22} />
