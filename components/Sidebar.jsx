@@ -1,7 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { MdPerson, MdShoppingCart, MdSettings, MdPoll } from "react-icons/md";
+import {
+  MdPerson,
+  MdShoppingCart,
+  MdSettings,
+  MdPoll,
+  MdDeveloperBoard,
+} from "react-icons/md";
 import { GiTripleCorn } from "react-icons/gi";
 
 const Sidebar = ({ children }) => {
@@ -31,6 +37,11 @@ const Sidebar = ({ children }) => {
           <Link href="/orders">
             <div className="my-4 inline-block cursor-pointer rounded-lg bg-slate-100 p-3 text-slate-600 hover:bg-gray-300">
               <MdShoppingCart size={22} />
+            </div>
+          </Link>
+          <Link href="/board">
+            <div className="my-4 inline-block cursor-pointer rounded-lg bg-slate-100 p-3 text-slate-600 hover:bg-gray-300">
+              <MdDeveloperBoard size={22} />
             </div>
           </Link>
           <Link href="/settings">
