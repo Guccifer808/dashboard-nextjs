@@ -1,3 +1,4 @@
+// Customers data
 export const mockData = [
   {
     id: 1,
@@ -128,7 +129,7 @@ export const mockData = [
     date: "2 Days ago",
   },
 ];
-
+// Kanban board
 export const boardData = {
   columns: [
     {

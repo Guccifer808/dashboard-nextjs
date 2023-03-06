@@ -1,2 +1,2 @@
 import { create } from "zustand";
-import { boardData } from "../mockData/mockBoard";
+import { boardData } from "../mockData";
