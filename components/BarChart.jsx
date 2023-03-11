@@ -33,7 +33,7 @@ const BarChart = () => {
           label: "Sales $",
           data: [8514, 11255, 9885, 15554, 28551, 26318, 21579],
           borderColor: "#F1F5F9",
-          backgroundColor: "#BBF7D0",
+          backgroundColor: "#3482F6",
         },
       ],
     });

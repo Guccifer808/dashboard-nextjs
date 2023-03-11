@@ -26,8 +26,8 @@ const customers = () => {
                 className="my-3 grid cursor-pointer grid-cols-2 items-center justify-between gap-2 rounded-lg bg-slate-50 p-2 hover:bg-slate-100 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
               >
                 <div className="flex items-center">
-                  <div className="rounded-lg bg-green-100 p-3">
-                    <GiCharacter className="text-green-500" />
+                  <div className="rounded-lg bg-blue-100 p-3">
+                    <GiCharacter className="text-blue-500" />
                   </div>
                   <p className="pl-4">
                     {order.name.first + " " + order.name.last}

@@ -8,7 +8,7 @@ const TopCards = () => {
           <p className="text-2xl font-bold">$8,8548</p>
           <p className="text-gray-700">Daily Revenue</p>
         </div>
-        <p className="my-1 flex min-w-[55px] items-center justify-center rounded-lg bg-green-200 p-2 font-semibold">
+        <p className="my-1 flex min-w-[55px] items-center justify-center rounded-lg bg-blue-200 p-2 font-semibold">
           <span>+8%</span>
         </p>
       </div>
@@ -17,7 +17,7 @@ const TopCards = () => {
           <p className="text-2xl font-bold">$458,851</p>
           <p className="text-gray-700">Total Revenue</p>
         </div>
-        <p className="my-1 flex min-w-[55px] items-center justify-center rounded-lg bg-green-200 p-2 font-semibold">
+        <p className="my-1 flex min-w-[55px] items-center justify-center rounded-lg bg-blue-200 p-2 font-semibold">
           <span>+2%</span>
         </p>
       </div>
@@ -26,7 +26,7 @@ const TopCards = () => {
           <p className="text-2xl font-bold">1752</p>
           <p className="text-gray-700">Customers</p>
         </div>
-        <p className="my-1 flex min-w-[55px] items-center justify-center rounded-lg bg-green-200 p-2 font-semibold">
+        <p className="my-1 flex min-w-[55px] items-center justify-center rounded-lg bg-blue-200 p-2 font-semibold">
           <span>+11%</span>
         </p>
       </div>

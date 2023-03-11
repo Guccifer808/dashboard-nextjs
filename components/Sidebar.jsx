@@ -17,7 +17,7 @@ const Sidebar = ({ children }) => {
         <div className="flex flex-col items-center">
           <Link href="/">
             {/* Logo icon */}
-            <div className="inline-block rounded-lg bg-green-400 p-3 text-white">
+            <div className="inline-block rounded-lg bg-blue-500 p-3 text-white">
               <GiTripleCorn size={22} />
             </div>
           </Link>
